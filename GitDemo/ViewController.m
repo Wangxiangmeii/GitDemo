@@ -16,7 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UILabel * lbl = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, kWidth, 6)];
+    lbl.text = @"我是测试";
+    [self.view addSubview:lbl];
+    
+    
 }
 
 
