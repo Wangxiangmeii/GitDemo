@@ -21,9 +21,12 @@
     lbl.text = @"我是测试";
     [self.view addSubview:lbl];
     
-    
+    [self sagHello];
 }
 
+-(void)sagHello{
+    NSLog(@"你好，世界");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
