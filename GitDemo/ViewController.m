@@ -20,12 +20,16 @@
     UILabel * lbl = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, kWidth, 6)];
     lbl.text = @"我是测试";
     [self.view addSubview:lbl];
-    
+    [self sagBye];
     [self sagHello];
 }
 
 -(void)sagHello{
     NSLog(@"你好，世界");
+}
+
+-(void)sagBye{
+    NSLog(@"再见，世界");
 }
 
 - (void)didReceiveMemoryWarning {
