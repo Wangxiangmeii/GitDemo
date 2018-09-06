@@ -22,6 +22,7 @@
     [self.view addSubview:lbl];
     [self sagBye];
     [self sagHello];
+    [self saychange];
 }
 
 -(void)sagHello{
@@ -30,6 +31,10 @@
 
 -(void)sagBye{
     NSLog(@"再见，世界");
+}
+
+-(void)saychange{
+    NSLog(@"测试一下下");
 }
 
 - (void)didReceiveMemoryWarning {
