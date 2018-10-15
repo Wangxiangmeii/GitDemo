@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		78256CF0213FAB9200829904 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78256CEF213FAB9200829904 /* AppDelegate.m */; };
+		78256CF0213FAB9200829904 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 78256CEF213FAB9200829904 /* AppDelegate.mm */; };
 		78256CF3213FAB9200829904 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78256CF2213FAB9200829904 /* ViewController.m */; };
 		78256CF6213FAB9200829904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78256CF4213FAB9200829904 /* Main.storyboard */; };
 		78256CF8213FAB9400829904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78256CF7213FAB9400829904 /* Assets.xcassets */; };
@@ -15,6 +15,21 @@
 		78256CFE213FAB9400829904 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78256CFD213FAB9400829904 /* main.m */; };
 		78256D08213FAB9400829904 /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78256D07213FAB9400829904 /* GitDemoTests.m */; };
 		78256D13213FAB9400829904 /* GitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78256D12213FAB9400829904 /* GitDemoUITests.m */; };
+		785760342149082E00CB40BB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785760332149082E00CB40BB /* CoreLocation.framework */; };
+		785760362149084200CB40BB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785760352149084200CB40BB /* QuartzCore.framework */; };
+		785760382149084F00CB40BB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785760372149084E00CB40BB /* OpenGLES.framework */; };
+		7857603A2149085C00CB40BB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785760392149085C00CB40BB /* SystemConfiguration.framework */; };
+		7857603C2149086D00CB40BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7857603B2149086D00CB40BB /* CoreGraphics.framework */; };
+		7857603E2149088000CB40BB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7857603D2149088000CB40BB /* Security.framework */; };
+		785760402149089C00CB40BB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7857603F2149089C00CB40BB /* libsqlite3.tbd */; };
+		78576042214908AA00CB40BB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78576041214908AA00CB40BB /* CoreTelephony.framework */; };
+		78576044214908C100CB40BB /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 78576043214908C100CB40BB /* libstdc++.6.0.9.tbd */; };
+		78576047214909C700CB40BB /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78576045214909C700CB40BB /* libssl.a */; };
+		78576048214909C700CB40BB /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78576046214909C700CB40BB /* libcrypto.a */; };
+		7857604C21490C1800CB40BB /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7857604B21490C1800CB40BB /* mapapi.bundle */; };
+		7857604E21490F5200CB40BB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7857604D21490F5200CB40BB /* MapKit.framework */; };
+		78C8E2DF2147543F0004F6E2 /* loginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C8E2DE2147543F0004F6E2 /* loginController.m */; };
+		78C8E2E22147589D0004F6E2 /* tableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C8E2E12147589D0004F6E2 /* tableViewController.m */; };
 		EB29583F32AC1329872EE5C2 /* libPods-GitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 946CEDD53C542D419E55E28C /* libPods-GitDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +53,7 @@
 /* Begin PBXFileReference section */
 		78256CEB213FAB9200829904 /* GitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78256CEE213FAB9200829904 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		78256CEF213FAB9200829904 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78256CEF213FAB9200829904 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		78256CF1213FAB9200829904 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		78256CF2213FAB9200829904 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		78256CF5213FAB9200829904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +68,23 @@
 		78256D12213FAB9400829904 /* GitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoUITests.m; sourceTree = "<group>"; };
 		78256D14213FAB9400829904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78256D20213FAE5800829904 /* Macros.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.pch; sourceTree = "<group>"; };
+		785760332149082E00CB40BB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		785760352149084200CB40BB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		785760372149084E00CB40BB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		785760392149085C00CB40BB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7857603B2149086D00CB40BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7857603D2149088000CB40BB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7857603F2149089C00CB40BB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		78576041214908AA00CB40BB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		78576043214908C100CB40BB /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		78576045214909C700CB40BB /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "../../../Documents/第三方/BaiduMap_IOSSDK_v4.2.0-Output/thirdlibs/libssl.a"; sourceTree = "<group>"; };
+		78576046214909C700CB40BB /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "../../../Documents/第三方/BaiduMap_IOSSDK_v4.2.0-Output/thirdlibs/libcrypto.a"; sourceTree = "<group>"; };
+		7857604B21490C1800CB40BB /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = "../../金朵药房/ThreeParty/mapapi.bundle"; sourceTree = "<group>"; };
+		7857604D21490F5200CB40BB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		78C8E2DD2147543F0004F6E2 /* loginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loginController.h; sourceTree = "<group>"; };
+		78C8E2DE2147543F0004F6E2 /* loginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loginController.m; sourceTree = "<group>"; };
+		78C8E2E02147589D0004F6E2 /* tableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tableViewController.h; sourceTree = "<group>"; };
+		78C8E2E12147589D0004F6E2 /* tableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableViewController.m; sourceTree = "<group>"; };
 		946CEDD53C542D419E55E28C /* libPods-GitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB30B4453F074BE401EA1D6 /* Pods-GitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitDemo/Pods-GitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E18ED6D521828077EA5F7F8A /* Pods-GitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitDemo/Pods-GitDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,6 +95,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7857604E21490F5200CB40BB /* MapKit.framework in Frameworks */,
+				78576047214909C700CB40BB /* libssl.a in Frameworks */,
+				78576048214909C700CB40BB /* libcrypto.a in Frameworks */,
+				78576044214908C100CB40BB /* libstdc++.6.0.9.tbd in Frameworks */,
+				78576042214908AA00CB40BB /* CoreTelephony.framework in Frameworks */,
+				785760402149089C00CB40BB /* libsqlite3.tbd in Frameworks */,
+				7857603E2149088000CB40BB /* Security.framework in Frameworks */,
+				7857603C2149086D00CB40BB /* CoreGraphics.framework in Frameworks */,
+				7857603A2149085C00CB40BB /* SystemConfiguration.framework in Frameworks */,
+				785760382149084F00CB40BB /* OpenGLES.framework in Frameworks */,
+				785760362149084200CB40BB /* QuartzCore.framework in Frameworks */,
+				785760342149082E00CB40BB /* CoreLocation.framework in Frameworks */,
 				EB29583F32AC1329872EE5C2 /* libPods-GitDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +140,7 @@
 		78256CE2213FAB9200829904 = {
 			isa = PBXGroup;
 			children = (
+				7857604B21490C1800CB40BB /* mapapi.bundle */,
 				78256CED213FAB9200829904 /* GitDemo */,
 				78256D06213FAB9400829904 /* GitDemoTests */,
 				78256D11213FAB9400829904 /* GitDemoUITests */,
@@ -119,10 +164,14 @@
 			isa = PBXGroup;
 			children = (
 				78256CEE213FAB9200829904 /* AppDelegate.h */,
-				78256CEF213FAB9200829904 /* AppDelegate.m */,
+				78256CEF213FAB9200829904 /* AppDelegate.mm */,
 				78256D20213FAE5800829904 /* Macros.pch */,
 				78256CF1213FAB9200829904 /* ViewController.h */,
 				78256CF2213FAB9200829904 /* ViewController.m */,
+				78C8E2DD2147543F0004F6E2 /* loginController.h */,
+				78C8E2DE2147543F0004F6E2 /* loginController.m */,
+				78C8E2E02147589D0004F6E2 /* tableViewController.h */,
+				78C8E2E12147589D0004F6E2 /* tableViewController.m */,
 				78256CF4213FAB9200829904 /* Main.storyboard */,
 				78256CF7213FAB9400829904 /* Assets.xcassets */,
 				78256CF9213FAB9400829904 /* LaunchScreen.storyboard */,
@@ -153,6 +202,18 @@
 		EE377DA4D191DF5E86BC997C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7857604D21490F5200CB40BB /* MapKit.framework */,
+				78576046214909C700CB40BB /* libcrypto.a */,
+				78576045214909C700CB40BB /* libssl.a */,
+				78576043214908C100CB40BB /* libstdc++.6.0.9.tbd */,
+				78576041214908AA00CB40BB /* CoreTelephony.framework */,
+				7857603F2149089C00CB40BB /* libsqlite3.tbd */,
+				7857603D2149088000CB40BB /* Security.framework */,
+				7857603B2149086D00CB40BB /* CoreGraphics.framework */,
+				785760392149085C00CB40BB /* SystemConfiguration.framework */,
+				785760372149084E00CB40BB /* OpenGLES.framework */,
+				785760352149084200CB40BB /* QuartzCore.framework */,
+				785760332149082E00CB40BB /* CoreLocation.framework */,
 				946CEDD53C542D419E55E28C /* libPods-GitDemo.a */,
 			);
 			name = Frameworks;
@@ -169,6 +230,7 @@
 				78256CE7213FAB9200829904 /* Sources */,
 				78256CE8213FAB9200829904 /* Frameworks */,
 				78256CE9213FAB9200829904 /* Resources */,
+				7D29F3CB778ABEF73EAB5189 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78256CFB213FAB9400829904 /* LaunchScreen.storyboard in Resources */,
+				7857604C21490C1800CB40BB /* mapapi.bundle in Resources */,
 				78256CF8213FAB9400829904 /* Assets.xcassets in Resources */,
 				78256CF6213FAB9200829904 /* Main.storyboard in Resources */,
 			);
@@ -285,6 +348,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		7D29F3CB778ABEF73EAB5189 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GitDemo/Pods-GitDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/baiduMap/MapFrameWork/BaiduMapAPI.framework/Resources/mapapi.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mapapi.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitDemo/Pods-GitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8D01C09EC4461AC71043EC43 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -310,9 +393,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78C8E2E22147589D0004F6E2 /* tableViewController.m in Sources */,
 				78256CF3213FAB9200829904 /* ViewController.m in Sources */,
+				78C8E2DF2147543F0004F6E2 /* loginController.m in Sources */,
 				78256CFE213FAB9400829904 /* main.m in Sources */,
-				78256CF0213FAB9200829904 /* AppDelegate.m in Sources */,
+				78256CF0213FAB9200829904 /* AppDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
